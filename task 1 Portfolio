@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color:palevioletred;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: wheat;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: lightblue;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Payal Chandekar </h1>
+        <p>Web Developer</p>
+    </header>
+
+    <nav>
+        <a href="#about">I am working as an intern at Codsoft, I have well and good knowledge about html, css, python. </a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">payalchandekar@gmail.com</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Good at html, css, python and java
+            Created many web projects.</p>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div>
+            <!-- web development
+                 graphic designing -->
+            <div>
+                <h3>web development</h3>
+                <p>created a online registration system</p>
+            </div>
+            <div>
+                <h3>Graphic designing</h3>
+                <p>Created a business card</p>
+            </div>
+            <!-- Add more projects as needed -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email:payalchandekar@gmail.com</p>
+        <p>Phone: 123-456-7890</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+</html>
