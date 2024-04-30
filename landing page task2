@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nutritionist Landing Page</title>
+    <style>
+        body {
+            background-image: url(https://images.unsplash.com/photo-1490818387583-1baba5e638af?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bnV0cml0aW9ufGVufDB8fDB8fHww);
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-size: xx-large;
+            font-family: Arial, sans-serif Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            margin: 0;
+            padding: 0;
+            background-color: whitesmoke;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            color:royalblue ;
+        }
+        p {
+            color: black;
+            margin-bottom: 20px;
+        }
+        .button {
+            display: inline-block;
+            background-color: green;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color:red;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Nutrition Journey</h1>
+        <p>Transforming Lives Through Nutrition</p>
+        <p>How Can Nutrition Transform Your Life?</p>
+        <p>Our Services Include:</p>
+        <ul>
+            <li>Personalized Meal Plans</li>
+            <li>Nutritional Counseling Sessions</li>
+            <li>Grocery Shopping Guides</li>
+            <li>Recipe Development</li>
+        </ul>
+        <a href="https://livagewell.net/wp-content/uploads/superfoods.jpg" class="button" >Learn More</a>
+    </div>
+</body>
+</html>
